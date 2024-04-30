@@ -2,11 +2,11 @@
 
 namespace customPagination.Models.Person.Responses;
 
-public class GetPersonsResponses
+public class GetPersonsResponse
 {
     public List<PagedList<PersonResponse>> PersonsList { get; set; }
 
-    public GetPersonsResponses()
+    public GetPersonsResponse()
     {
         PersonsList = new List<PagedList<PersonResponse>>();
     }
